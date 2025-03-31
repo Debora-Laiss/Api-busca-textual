@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "d1b465c5-94ac-4f15-986c-2df172ff94fb",
+		"name": "Busca Textual",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "43552340"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/buscar?termo=operadora",
+			"request": {
+				"auth": {
+					"type": "inherit",
+					"inherit": {}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/buscar?termo=operadora",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "operadora"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
